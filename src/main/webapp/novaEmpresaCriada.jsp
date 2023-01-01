@@ -2,17 +2,12 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Insert title here</title>
-</head>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Insert title here</title>
+	</head>
 
-<%
-String nomeEmpresa = (String)request.getAttribute("empresa");
-System.out.println(nomeEmpresa);
-%>
-
-<body>
-Empresa <%= nomeEmpresa %> cadastrada com sucesso!
-</body>
+	<body>
+		Empresa ${ empresa } cadastrada com sucesso!
+	</body>
 </html>
